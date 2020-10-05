@@ -1,0 +1,8 @@
+makes/
+Downloads/
+.mozilla/
+.cargo/
+.cache/
+.xsession-errors
+.xsession-errors.old
+.python_history

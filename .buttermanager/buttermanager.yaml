@@ -1,0 +1,11 @@
+aur_repository: 0
+check_at_startup: 0
+grub_btrfs: 1
+path_to_consolidate_root_snapshot: _active/rootvol
+remove_snapshots: 1
+save_log: 1
+snap_packages: 0
+snapshots_to_keep: 3
+subvolumes_dest: /.snapshots/
+subvolumes_orig: /
+subvolumes_prefix: parin

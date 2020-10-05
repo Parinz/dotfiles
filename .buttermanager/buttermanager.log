@@ -1,0 +1,78 @@
+2020-10-05 09:32:47,915 INFO:ConfigManager. Checking OS. ARCH found
+2020-10-05 09:32:47,915 INFO:ConfigManager. Creating PropertiesManager...
+2020-10-05 09:32:47,916 INFO:ConfigManager. Retrieving user's configuration from buttermanager.yaml file and loading it in memory...
+2020-10-05 09:32:47,916 INFO:VersionChecker. Checking for a new version of ButterManager. Please wait...
+2020-10-05 09:32:48,034 INFO:PasswordWindow. Calculating appropriated base font size for UI elements...
+2020-10-05 09:32:48,102 INFO:PasswordWindow. Base font size = 6
+2020-10-05 09:32:53,674 INFO:VersionChecker. Last version is 2.0 and current version is 2.0
+2020-10-05 09:32:59,489 INFO:RootSnapshotChecker. Checking if the current snapshot used for root is the default. Please wait...
+2020-10-05 09:32:59,623 INFO:ButtermanagerMainWindow. BTRFS filesystems found in the system:
+2020-10-05 09:32:59,623 INFO:ButtermanagerMainWindow. BTRFS Filesystem -> UUID: 7ef2a6e5-757b-42ef-9c0c-dc8f16e957ee; Devices: ['/dev/nvme0n1p3']; Mounted Points: ['/', '/tmp', '/home']
+2020-10-05 09:32:59,638 INFO:UpdatesChecker. Checking Internet connection. Please wait...
+2020-10-05 09:33:04,949 INFO:UpdatesChecker. Internet connection is available!
+2020-10-05 09:33:51,399 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Balancing / using filter dusage and percentage 94
+2020-10-05 09:33:51,399 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Command executed sudo -S btrfs balance start -dusage=94 /
+2020-10-05 09:33:53,127 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Done, had to relocate 1 out of 16 chunks
+2020-10-05 09:33:53,127 INFO:/opt/buttermanager/buttermanager/buttermanager.py. 
+2020-10-05 09:33:53,127 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Balancing / using filter musage and percentage 20
+2020-10-05 09:33:53,127 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Balancing / using filter musage and percentage 20
+2020-10-05 09:33:53,127 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Command executed sudo -S btrfs balance start -musage=20 /
+2020-10-05 09:33:53,127 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Command executed sudo -S btrfs balance start -musage=20 /
+2020-10-05 09:33:53,199 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Done, had to relocate 1 out of 16 chunks
+2020-10-05 09:33:53,199 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Done, had to relocate 1 out of 16 chunks
+2020-10-05 09:33:53,199 INFO:/opt/buttermanager/buttermanager/buttermanager.py. 
+2020-10-05 09:33:53,199 INFO:/opt/buttermanager/buttermanager/buttermanager.py. 
+2020-10-05 09:35:10,050 INFO:PropertiesManager. Setting property grub_btrfs with value 1
+2020-10-05 09:49:12,441 INFO:ConfigManager. Checking OS. ARCH found
+2020-10-05 09:49:12,441 INFO:ConfigManager. Creating PropertiesManager...
+2020-10-05 09:49:12,443 INFO:ConfigManager. Retrieving user's configuration from buttermanager.yaml file and loading it in memory...
+2020-10-05 09:49:12,443 INFO:VersionChecker. Checking for a new version of ButterManager. Please wait...
+2020-10-05 09:49:12,561 INFO:PasswordWindow. Calculating appropriated base font size for UI elements...
+2020-10-05 09:49:12,628 INFO:PasswordWindow. Base font size = 6
+2020-10-05 09:49:18,225 INFO:VersionChecker. Last version is 2.0 and current version is 2.0
+2020-10-05 09:49:24,641 INFO:RootSnapshotChecker. Checking if the current snapshot used for root is the default. Please wait...
+2020-10-05 09:49:24,777 INFO:ButtermanagerMainWindow. BTRFS filesystems found in the system:
+2020-10-05 09:49:24,778 INFO:ButtermanagerMainWindow. BTRFS Filesystem -> UUID: 7ef2a6e5-757b-42ef-9c0c-dc8f16e957ee; Devices: ['/dev/nvme0n1p3']; Mounted Points: ['/', '/tmp', '/home', '/.snapshots']
+2020-10-05 09:49:24,794 INFO:UpdatesChecker. Checking Internet connection. Please wait...
+2020-10-05 09:49:30,323 INFO:UpdatesChecker. Internet connection is available!
+2020-10-05 09:50:36,238 INFO:PropertiesManager. Setting subvolume / with new values: where /.snapshots/; prefixparin
+2020-10-05 09:51:01,767 INFO:Subvolume. Creating a read-only snapshot of / in /.snapshots/. Please wait...
+2020-10-05 09:51:01,856 INFO:PropertiesManager. Setting property path_to_consolidate_root_snapshot with value _active/rootvol
+2020-10-05 09:51:01,857 INFO:Subvolume. Regenerating GRUB entries. Please wait...
+2020-10-05 09:57:49,799 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Checking for system updates.
+2020-10-05 09:58:03,759 INFO:Upgrader. Your system is up to date.
+2020-10-05 09:58:12,324 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Checking for system updates.
+2020-10-05 09:58:12,324 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Checking for system updates.
+2020-10-05 09:58:16,221 INFO:Upgrader. Your system is up to date.
+2020-10-05 09:58:16,221 INFO:Upgrader. Your system is up to date.
+2020-10-05 11:23:03,357 INFO:ConfigManager. Checking OS. ARCH found
+2020-10-05 11:23:03,358 INFO:ConfigManager. Creating PropertiesManager...
+2020-10-05 11:23:03,359 INFO:ConfigManager. Retrieving user's configuration from buttermanager.yaml file and loading it in memory...
+2020-10-05 11:23:03,359 INFO:VersionChecker. Checking for a new version of ButterManager. Please wait...
+2020-10-05 11:23:03,488 INFO:PasswordWindow. Calculating appropriated base font size for UI elements...
+2020-10-05 11:23:03,555 INFO:PasswordWindow. Base font size = 6
+2020-10-05 11:23:16,188 INFO:VersionChecker. Last version is 2.0 and current version is 2.0
+2020-10-05 11:23:22,255 INFO:RootSnapshotChecker. Checking if the current snapshot used for root is the default. Please wait...
+2020-10-05 11:23:22,423 INFO:ButtermanagerMainWindow. BTRFS filesystems found in the system:
+2020-10-05 11:23:22,423 INFO:ButtermanagerMainWindow. BTRFS Filesystem -> UUID: 7ef2a6e5-757b-42ef-9c0c-dc8f16e957ee; Devices: ['/dev/nvme0n1p3']; Mounted Points: ['/', '/.snapshots', '/home', '/tmp']
+2020-10-05 11:23:22,439 INFO:UpdatesChecker. Checking Internet connection. Please wait...
+2020-10-05 11:23:36,795 INFO:UpdatesChecker. Internet connection is available!
+2020-10-05 11:23:43,671 INFO:Subvolume. Creating a read-only snapshot of / in /.snapshots/. Please wait...
+2020-10-05 11:23:43,766 INFO:PropertiesManager. Setting property path_to_consolidate_root_snapshot with value _active/rootvol
+2020-10-05 11:23:43,767 INFO:Subvolume. Regenerating GRUB entries. Please wait...
+2020-10-05 11:23:56,164 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Balancing / using filter dusage and percentage 95
+2020-10-05 11:23:56,164 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Command executed sudo -S btrfs balance start -dusage=95 /
+2020-10-05 11:23:59,896 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Done, had to relocate 1 out of 16 chunks
+2020-10-05 11:23:59,896 INFO:/opt/buttermanager/buttermanager/buttermanager.py. 
+2020-10-05 11:23:59,897 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Balancing / using filter musage and percentage 21
+2020-10-05 11:23:59,897 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Balancing / using filter musage and percentage 21
+2020-10-05 11:23:59,897 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Command executed sudo -S btrfs balance start -musage=21 /
+2020-10-05 11:23:59,897 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Command executed sudo -S btrfs balance start -musage=21 /
+2020-10-05 11:23:59,976 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Done, had to relocate 1 out of 16 chunks
+2020-10-05 11:23:59,976 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Done, had to relocate 1 out of 16 chunks
+2020-10-05 11:23:59,976 INFO:/opt/buttermanager/buttermanager/buttermanager.py. 
+2020-10-05 11:23:59,976 INFO:/opt/buttermanager/buttermanager/buttermanager.py. 
+2020-10-05 11:24:19,692 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Checking for system updates.
+2020-10-05 11:24:19,692 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Checking for system updates.
+2020-10-05 11:24:19,692 INFO:/opt/buttermanager/buttermanager/buttermanager.py. Checking for system updates.
+2020-10-05 11:25:28,171 INFO:Upgrader. Your system is up to date.
